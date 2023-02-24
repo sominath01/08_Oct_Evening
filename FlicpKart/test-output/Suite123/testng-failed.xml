@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite123]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="Firfox(failed)">
+    <parameter name="browser" value="Firfox"/>
+    <classes>
+      <class name="TestNGPackege2.PlaceOrderClassFlipkart">
+        <methods>
+          <include name="afterMehtod"/>
+          <include name="closePOMClasses"/>
+          <include name="verifyCorrectProduct"/>
+          <include name="afterMethod"/>
+          <include name="goToMainPageFlipKart"/>
+          <include name="toLaunchBrowser"/>
+          <include name="createPOMObjects"/>
+        </methods>
+      </class> <!-- TestNGPackege2.PlaceOrderClassFlipkart -->
+    </classes>
+  </test> <!-- Firfox(failed) -->
+</suite> <!-- Failed suite [Suite123] -->
